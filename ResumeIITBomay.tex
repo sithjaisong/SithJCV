@@ -1,0 +1,189 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Deepak Sahu} \\
+\indent Nagar Palika Colony \\
+\indent Piproda road, Nanakhedhi \\
+\indent Guna (M.P., INDIA) - 473001 \\
+\indent Email-id : \textbf{deepaksahu1808@gmail.com} \\
+\indent Mobile No.: \textbf{09930154985} \\
+\indent Alt Mob No.: \textbf{08655475283} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} & \textbf{CPI/\%} \\
+\hline
+Post Graduate Specialization:\,\, & \textit{Computer Science and Engineering} \\
+Post Graduation & IIT Bombay & IIT Bombay & 2014 & 6.38 \\
+UnderGraduate Specialization: & \textit{Computer Engineering} \\
+Graduation & DAVV, Indore & IET-DAVV, Indore & 2012 & 71.36 \\
+Intermediate/+2 & CBSE & JNV Ashoknagar & 2007 & 77.80 \\
+Matriculation & CBSE & JNV Ashoknagar & 2005 & 80.40 \\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}
+\item \noindent Wireless Network and Network Security, Implementation Techniques in Relational Databases, Algorithms, Data Structures.
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} (C, C++, Java),\textbf{Database} (MySQL) \textbf{Script} (Python, Shell), \textbf{Tools} (Eclipse, \LaTeX, Gnuplot).
+\end{itemize}
+
+\resheading{\textbf{MAJOR PROJECTS AND SEMINAR} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Media Access Control in Wireless Network
+} (M. Tech. Project) \\
+ \emph{(Guide:Prof. Kameswari Chebrolu
+, May'13 - till date)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective :Performance analysis of HTTP web browsing traffic in TDMA Mesh Networks with different
+MAC protocols.
+.
+	\item Performance analysis will help in comparing different MAC protocols based on different network sce-
+narios.
+
+	\item Studied various papers related to different MAC protocols and now working on improving simulations.
+
+	\item The work is revolve around new MAC protocol \emph{LiT MAC} and its comparison with available MAC pro-
+tocols.
+
+	\end{itemize}
+
+\item \textbf{Object Recognition.
+} (M. Tech. Seminar) \\
+ \emph{(Guide: Prof. G. Nagaraja
+, Jan'13 - Apr'13)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Understand the basic technique involve in object recognition.
+	\item Understand the technical problems arises while recognizing mobile objects.
+	\end{itemize}
+
+\item \textbf{Data Structure Visualization.} (B.E. Project) \\ 
+ \emph{(Guide: Mr. Jagdish Singh Raikwal)} 
+ \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective : To depicts various data structures visually.
+	\item Create visual display of binary search tree, stack and AVL tree.
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{COURSE PROJECTS} (Group Projects)}\\[\lsep]
+
+\begin{itemize}
+\item \textbf{Implementation of optimized OR-IS-NULL join in postgres} (RDBMS)\\
+ \emph{(Guide: Prof. S. Sudarshan
+, July'12 - Nov'12)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Added special join type "\emph{merge-null join}" to redirect such queries to merge-join node in postgres.
+	\item Extended merge join module to perform merge-null join within fewer number of passes.
+	\item Further extended the code to handle multiple attributes with OR-IS-NULL clause.
+	\item Impact: Reduced scans over input reduces the cost of join by large factor.
+	\end{itemize}
+
+\item \textbf{Dynamic Control Dependence.} (Advanced Compiler)\\
+ \emph{(Guide: Prof. D. M. Dhamdhere
+, July'12 - Nov'12)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective : Study and analyze previous work in the field of Dynamic Control dependence. The soul pur-
+pose of the project is to come up with the idea of how the various statements depends on its predecessor
+control statement.
+	\end{itemize}
+
+\item \textbf{Block cipher design and analysis.} (An Introduction to number theory and cryptography)
+	\begin{itemize}\itemsep \isep
+	\item We generate dynamic S-Box \& perform linear mixing of input bits
+
+	\item Fiestel Structure is used for the operations.
+	\end{itemize}
+
+\item \textbf{Optimization Techniques in ECC} (Network Security and Cryptography)\\
+ \emph{(Guide: Prof. Bernard L. Menezes
+, Jan'13 - April'13)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Studied and compare different techniques for optimizing cost of scalar multiplication in ECC.
+	\item Learn Non-Adjacent Form (NAF), Window-NAF (wNAF), Near Factorization (NF) and Double base \&
+Multibase Number Representation.
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }\\[\lsep]
+\begin{itemize}\itemsep \isep
+\item Work as a system administrator for three semester starting from July' 2012 in IIT-Bombay.
+
+\item Work as Teaching Assistance of Prof. D.B. Phatak in HS699.
+\end{itemize}
+
+\resheading{\textbf{COURSES TAKEN} }\\[\lsep]
+\begin{itemize}
+\item Advanced Compiler, Implementation Techniques in Relational Database Management System, Program Analysis, Advanced Computer Architecture, Philosophy of Education. 
+\item Introduction to Number Theory and Cryptography, Network Security and Cryptography, Communication Networks, Artificial Intelligence, Development of Mathematics in India.
+\end{itemize}
+
+\resheading{\textbf{ACHIEVEMENT} }\\[\lsep]
+\begin{itemize}
+\item \noindent In GATE 2012, secured All India Rank 261 with 99.83 percentile.
+\end{itemize}
+
+\resheading{\textbf{STRENGTHS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Positive Attitude, Consistency, Cooperative with co-members.
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Solving Puzzles and Number Problems.
+\item \noindent Playing Chess, Cricket, Table Tennis.
+
+\end{itemize}
+
+\end{document}
+
